@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to ATM</h2>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button id="sendOtpBtn">Send OTP</button>
+
+        <div id="otpSection" style="display:none;">
+            <input type="text" id="otpInput" placeholder="Enter OTP">
+            <button id="verifyOtpBtn">Verify OTP</button>
+        </div>
+    </div>
+</body>
+</html>
